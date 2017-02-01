@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindFire.iOS", "MindFire\Mi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindFire", "MindFire\MindFire\MindFire.csproj", "{4775B766-6E24-4E8E-B845-C1B827E7E075}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AppWarp", "AppWarp", "{38062CFF-373E-4DF3-809B-3B3BDFB71180}"
+	ProjectSection(SolutionItems) = preProject
+		AppWarpMonoLibrary.dll = AppWarpMonoLibrary.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +52,7 @@ Global
 		{2A6F98A2-DE43-498D-9630-F26C5C1881CE}.Release|iPhone.Build.0 = Release|iPhone
 		{2A6F98A2-DE43-498D-9630-F26C5C1881CE}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{2A6F98A2-DE43-498D-9630-F26C5C1881CE}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{2A6F98A2-DE43-498D-9630-F26C5C1881CE}.Debug|Any CPU.Build.0 = Debug|iPhone
 		{4775B766-6E24-4E8E-B845-C1B827E7E075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4775B766-6E24-4E8E-B845-C1B827E7E075}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4775B766-6E24-4E8E-B845-C1B827E7E075}.Debug|iPhone.ActiveCfg = Debug|Any CPU
