@@ -12,6 +12,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AppWarp", "AppWarp", "{38062CFF-373E-4DF3-809B-3B3BDFB71180}"
 	ProjectSection(SolutionItems) = preProject
 		AppWarpMonoLibrary.dll = AppWarpMonoLibrary.dll
+		App42_CSHARP_SDK_2.0.dll = App42_CSHARP_SDK_2.0.dll
 	EndProjectSection
 EndProject
 Global

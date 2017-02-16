@@ -33,11 +33,22 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Constants.cs" />
+    <Compile Include="MultipleChoiceQuestion.cs" />
+    <Compile Include="QuestionClient.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="AppWarpMonoLibrary">
       <HintPath>..\..\AppWarpMonoLibrary.dll</HintPath>
     </Reference>
+    <Reference Include="App42_CSHARP_SDK_2.0">
+      <HintPath>..\..\App42_CSHARP_SDK_2.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
 </Project>
